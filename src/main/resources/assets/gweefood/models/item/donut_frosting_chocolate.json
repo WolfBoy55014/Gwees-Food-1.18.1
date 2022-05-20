@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gweefood:item/donut_base",
+    "layer1": "gweefood:item/chocolate_frosting"
+  }
+}

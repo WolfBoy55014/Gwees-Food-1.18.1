@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gweefood:item/donut_base_no_hole",
+    "layer1": "gweefood:item/glaze_no_hole"
+  }
+}

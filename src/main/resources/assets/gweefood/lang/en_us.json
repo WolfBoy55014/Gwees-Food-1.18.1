@@ -1,0 +1,32 @@
+{
+  "item.gweefood.donut_frosting_strawberry": "Strawberry Donut",
+  "item.gweefood.donut_frosting_strawberry_sprinkles": "Strawberry Donut with Sprinkles",
+  "item.gweefood.donut_frosting_strawberry_drizzle": "Strawberry Donut with Drizzle",
+  "item.gweefood.donut_frosting_strawberry_drizzle_sprinkles": "Strawberry Donut with Drizzle and Sprinkles",
+
+  "item.gweefood.donut_frosting_chocolate": "Chocolate Donut",
+  "item.gweefood.donut_frosting_chocolate_sprinkles": "Chocolate Donut with Sprinkles",
+  "item.gweefood.donut_frosting_chocolate_drizzle": "Chocolate Donut with Drizzle",
+  "item.gweefood.donut_frosting_chocolate_drizzle_sprinkles": "Chocolate Donut with Drizzle and Sprinkles",
+
+  "item.gweefood.donut_frosting_lemon": "Lemon Donut",
+  "item.gweefood.donut_frosting_lemon_sprinkles": "Lemon Donut with Sprinkles",
+  "item.gweefood.donut_frosting_lemon_drizzle": "Lemon Donut with Drizzle",
+  "item.gweefood.donut_frosting_lemon_drizzle_sprinkles": "Lemon Donut with Drizzle and Sprinkles",
+  "itemGroup.gweefood.baking": "Baking",
+
+  "item.gweefood.donut_glazed": "Glazed Donut",
+  "item.gweefood.donut_glazed_filled": "Honey Filled Glazed Donut",
+
+  "item.gweefood.bottle_frosting_strawberry": "Bottle of Strawberry Frosting",
+  "item.gweefood.bottle_frosting_chocolate": "Bottle of Chocolate Frosting",
+  "item.gweefood.bottle_frosting_lemon": "Bottle of Lemon Frosting",
+  "item.gweefood.bottle_sprinkles": "Bottle of Sprinkles",
+  "item.gweefood.bottle_glaze": "Bottle of Glaze",
+  "item.gweefood.bottle_honey_filling": "Bottle of Honey Filling",
+
+  "item.gweefood.lemon": "Lemon",
+  "item.gweefood.lime": "Lime",
+  "item.gweefood.orange": "Orange",
+  "item.gweefood.strawberry": "Strawberry"
+}
