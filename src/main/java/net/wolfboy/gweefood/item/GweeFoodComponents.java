@@ -9,3 +9,4 @@ public class GweeFoodComponents {
     public static final FoodComponent SUGAR = new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).alwaysEdible().build();
     public static final FoodComponent FRUIT = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).alwaysEdible().build();
 }
+// Hi from the Internet!
