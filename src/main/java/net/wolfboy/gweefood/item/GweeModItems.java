@@ -73,7 +73,7 @@ public class GweeModItems {
             new Item(new FabricItemSettings().group(GweeItemGroup.BAKING).food(GweeFoodComponents.FRUIT)));
 
 
-
+    // Utilities
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(GweeFood.MOD_ID, name), item);
     }

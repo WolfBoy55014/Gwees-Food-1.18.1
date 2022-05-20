@@ -13,7 +13,6 @@
   "item.gweefood.donut_frosting_lemon_sprinkles": "Lemon Donut with Sprinkles",
   "item.gweefood.donut_frosting_lemon_drizzle": "Lemon Donut with Drizzle",
   "item.gweefood.donut_frosting_lemon_drizzle_sprinkles": "Lemon Donut with Drizzle and Sprinkles",
-  "itemGroup.gweefood.baking": "Baking",
 
   "item.gweefood.donut_glazed": "Glazed Donut",
   "item.gweefood.donut_glazed_filled": "Honey Filled Glazed Donut",
@@ -28,5 +27,9 @@
   "item.gweefood.lemon": "Lemon",
   "item.gweefood.lime": "Lime",
   "item.gweefood.orange": "Orange",
-  "item.gweefood.strawberry": "Strawberry"
+  "item.gweefood.strawberry": "Strawberry",
+
+  "block.gweefood.baking_table": "Gwee's Baking Table",
+
+  "itemGroup.gweefood.baking": "Gwee's Baking"
 }
