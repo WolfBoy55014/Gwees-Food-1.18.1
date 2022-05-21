@@ -10,13 +10,14 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.wolfboy.gweefood.GweeFood;
+import net.wolfboy.gweefood.block.custom.BakingTableBlock;
 import net.wolfboy.gweefood.item.GweeItemGroup;
 
 public class GweeModBlocks {
 
     // Blocks
     public static final Block BAKING_TABLE = registerBlock("baking_table",
-            new Block(FabricBlockSettings.of(Material.CAKE).luminance(100).strength(4f)), GweeItemGroup.BAKING);
+            new BakingTableBlock(FabricBlockSettings.of(Material.CAKE).jumpVelocityMultiplier(1000).strength(4f).breakByHand(true)), GweeItemGroup.BAKING);
 
     // Utilities
     private static Block registerBlock(String name, Block block, ItemGroup group) {
