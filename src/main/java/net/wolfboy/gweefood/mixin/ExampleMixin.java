@@ -13,4 +13,8 @@ public class ExampleMixin {
 	private void init(CallbackInfo info) {
 		GweeFood.LOGGER.info("Welcome To Gwee's Baking, have a Snack!");
 	}
+	@Inject(at = @At("TAIL"), method = "init()v")
+	private void init(CallbackInfo info) {
+		GweeFood.LOGGER.info("Stopping Gwee's Baking, come back soon!");
+	}
 }
