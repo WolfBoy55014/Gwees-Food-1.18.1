@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.wolfboy.gweefood.block.GweeModBlocks;
 import net.wolfboy.gweefood.block.entity.GweeModBlockEntities;
 import net.wolfboy.gweefood.item.GweeModItems;
+import net.wolfboy.gweefood.screen.GweeModScreenHandlers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +18,7 @@ public class GweeFood implements ModInitializer {
 		GweeModItems.registerModItems();
 		GweeModBlocks.registerModBlocks();
 		GweeModBlockEntities.registerAllBlockEntities();
+		GweeModScreenHandlers.registerAllScreenHandlers();
 
 	}
 }

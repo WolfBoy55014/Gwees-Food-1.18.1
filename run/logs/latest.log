@@ -1,72 +1,67 @@
-[14:03:13] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.1 with Fabric Loader 0.13.3
-[14:03:13] [main/INFO] (FabricLoader) Loading 52 mods:
-	- fabric 0.46.6+1.18
-	- fabric-api-base 0.4.2+d7c144a865
-	- fabric-api-lookup-api-v1 1.5.3+d7c144a865
-	- fabric-biome-api-v1 6.0.2+d7c144a865
-	- fabric-blockrenderlayer-v1 1.1.10+3ac43d9565
-	- fabric-command-api-v1 1.1.7+d7c144a865
-	- fabric-commands-v0 0.2.6+b4f4f6cd65
-	- fabric-containers-v0 0.1.19+d7c144a865
-	- fabric-content-registries-v0 0.4.9+d7c144a865
-	- fabric-crash-report-info-v1 0.1.9+3ac43d9565
-	- fabric-data-generation-api-v1 1.1.4+d7c144a865
-	- fabric-dimensions-v1 2.1.10+a1d9bbf565
-	- fabric-entity-events-v1 1.4.6+d7c144a865
-	- fabric-events-interaction-v0 0.4.17+d7c144a865
-	- fabric-events-lifecycle-v0 0.2.9+d7c144a865
-	- fabric-game-rule-api-v1 1.0.11+d7c144a865
-	- fabric-gametest-api-v1 1.0.11+713c266865
-	- fabric-item-api-v1 1.3.1+691a79b565
-	- fabric-item-groups-v0 0.3.7+3ac43d9565
-	- fabric-key-binding-api-v1 1.0.9+d7c144a865
-	- fabric-keybindings-v0 0.2.7+b4f4f6cd65
-	- fabric-lifecycle-events-v1 1.4.13+713c266865
-	- fabric-loot-tables-v1 1.0.9+d7c144a865
-	- fabric-mining-level-api-v1 1.0.7+d7c144a865
-	- fabric-mining-levels-v0 0.1.12+b4f4f6cd65
-	- fabric-models-v0 0.3.4+d7c144a865
-	- fabric-networking-api-v1 1.0.19+d7c144a865
-	- fabric-networking-v0 0.3.6+b4f4f6cd65
-	- fabric-object-builder-api-v1 1.11.5+737332ce65
-	- fabric-object-builders-v0 0.7.13+d7c144a865
-	- fabric-particles-v1 0.2.10+526dc1ac65
-	- fabric-registry-sync-v0 0.9.2+ad01bfbd65
-	- fabric-renderer-api-v1 0.4.11+b0b66fc365
-	- fabric-renderer-indigo 0.4.15+6825030165
-	- fabric-renderer-registries-v1 3.2.10+b4f4f6cd65
-	- fabric-rendering-data-attachment-v1 0.3.5+d7c144a865
-	- fabric-rendering-fluids-v1 0.1.19+3ac43d9565
-	- fabric-rendering-v0 1.1.12+b4f4f6cd65
-	- fabric-rendering-v1 1.10.6+713c266865
-	- fabric-resource-conditions-api-v1 1.0.2+d7c144a865
-	- fabric-resource-loader-v0 0.4.15+8906aafd65
-	- fabric-screen-api-v1 1.0.8+d7c144a865
-	- fabric-screen-handler-api-v1 1.1.12+d7c144a865
-	- fabric-structure-api-v1 2.1.3+d7c144a865
-	- fabric-tag-extensions-v0 1.2.9+d7c144a865
-	- fabric-textures-v0 1.0.10+3ac43d9565
-	- fabric-tool-attribute-api-v1 1.3.9+fb3b57b465
-	- fabric-transfer-api-v1 1.5.10+c329913d65
+[06:58:14] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.2 with Fabric Loader 0.13.3
+[06:58:14] [main/INFO] (FabricLoader) Loading 47 mods:
+	- fabric 0.47.10+1.18.2
+	- fabric-api-base 0.4.3+d7c144a860
+	- fabric-api-lookup-api-v1 1.5.6+d7c144a860
+	- fabric-biome-api-v1 8.0.2+801ec85b60
+	- fabric-blockrenderlayer-v1 1.1.11+3ac43d9560
+	- fabric-command-api-v1 1.1.8+d7c144a860
+	- fabric-commands-v0 0.2.7+b4f4f6cd60
+	- fabric-containers-v0 0.1.20+d7c144a860
+	- fabric-content-registries-v0 3.0.1+d82b939260
+	- fabric-crash-report-info-v1 0.1.10+3ac43d9560
+	- fabric-data-generation-api-v1 2.0.6+b5a7ab5360
+	- fabric-dimensions-v1 2.1.16+2540745460
+	- fabric-entity-events-v1 1.4.7+d7c144a860
+	- fabric-events-interaction-v0 0.4.18+d7c144a860
+	- fabric-events-lifecycle-v0 0.2.12+d7c144a860
+	- fabric-game-rule-api-v1 1.0.12+d7c144a860
+	- fabric-gametest-api-v1 1.0.14+2540745460
+	- fabric-item-api-v1 1.3.2+691a79b560
+	- fabric-item-groups-v0 0.3.9+3ac43d9560
+	- fabric-key-binding-api-v1 1.0.11+54e5b2ec60
+	- fabric-keybindings-v0 0.2.9+b4f4f6cd60
+	- fabric-lifecycle-events-v1 2.0.1+2540745460
+	- fabric-loot-tables-v1 1.0.10+d7c144a860
+	- fabric-mining-level-api-v1 2.0.3+d1027f7d60
+	- fabric-models-v0 0.3.5+d7c144a860
+	- fabric-networking-api-v1 1.0.20+d882b91560
+	- fabric-networking-v0 0.3.7+b4f4f6cd60
+	- fabric-object-builder-api-v1 2.0.2+34b2a0ce60
+	- fabric-particles-v1 0.2.11+526dc1ac60
+	- fabric-registry-sync-v0 0.9.7+0d9ab37260
+	- fabric-renderer-api-v1 0.4.12+d882b91560
+	- fabric-renderer-indigo 0.4.16+d8c7b9ae60
+	- fabric-renderer-registries-v1 3.2.10+b4f4f6cd60
+	- fabric-rendering-data-attachment-v1 0.3.6+d7c144a860
+	- fabric-rendering-fluids-v1 2.0.1+54e5b2ec60
+	- fabric-rendering-v0 1.1.12+b4f4f6cd60
+	- fabric-rendering-v1 1.10.6+54e5b2ec60
+	- fabric-resource-conditions-api-v1 2.0.1+d1027f7d60
+	- fabric-resource-loader-v0 0.4.17+801ec85b60
+	- fabric-screen-api-v1 1.0.9+d882b91560
+	- fabric-screen-handler-api-v1 1.1.13+d7c144a860
+	- fabric-textures-v0 1.0.11+3ac43d9560
+	- fabric-transfer-api-v1 1.5.13+cca23f9360
 	- fabricloader 0.13.3
-	- gweefood 0.0.1-1.18.1
+	- gweefood 0.1-1.18.2
 	- java 17
-	- minecraft 1.18.1
-[14:03:14] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Black%20Family/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/f4ae569d559b5e3244b67321945261d83ff7ad8e/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[14:03:14] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[14:03:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[14:03:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[14:03:20] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin::handler$zjd000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[14:03:23] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:03:23] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+	- minecraft 1.18.2
+[06:58:15] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Black%20Family/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/f4ae569d559b5e3244b67321945261d83ff7ad8e/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[06:58:15] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[06:58:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[06:58:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[06:58:22] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin::handler$zii000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[06:58:26] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:58:27] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
-	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.2.38.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.2.38.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:44) ~[authlib-3.2.38.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:153) ~[authlib-3.2.38.jar:?]
-	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:664) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:496) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:178) [minecraft-project-@-merged-named.jar:?]
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:44) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:153) ~[authlib-3.3.39.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:680) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:424) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [minecraft-project-@-merged-named.jar:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -76,97 +71,118 @@ com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.13.3.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
 Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:78) ~[authlib-3.2.38.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.2.38.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.2.38.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:78) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.3.39.jar:?]
 	... 13 more
-[14:03:23] [Render thread/INFO] (Minecraft) Setting user: Player741
-[14:03:24] [Render thread/INFO] (gweefood) Baking Items for Gwee's Baking
-[14:03:24] [Render thread/INFO] (gweefood) Baking Blocks for Gwee's Baking
-[14:03:24] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[14:03:24] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
-[14:03:30] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
-[14:03:30] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Screen Handler API (v1), Fabric Particles (v1), Fabric Key Bindings (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Textures (v0), Fabric Networking (v0), Fabric Structure API (v1), Fabric Screen API (v1), Fabric Networking API (v1), Fabric Dimensions API (v1), Fabric Game Test API (v1), Fabric API, Fabric Object Builders (v0), Fabric Events Interaction (v0), Fabric Rendering (v0), Fabric Object Builder API (v1), Fabric Loot Tables (v1), Fabric BlockRenderLayer Registration (v1), Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Commands (v0), Fabric Key Binding API (v1), Fabric Tool Attribute API (v1), Fabric Containers (v0), Fabric Tag Extensions (v0), Fabric Item Groups (v0), Fabric Mining Levels (v0), Fabric Models (v0), Fabric Registry Sync (v0), Fabric Resource Loader (v0), Fabric Data Generation API (v1), Fabric Rendering Fluids (v1), Fabric Item API (v1), Fabric Rendering (v1), Fabric Command API (v1), Fabric Events Lifecycle (v0), Gwee's Baking, Fabric Mining Level API (v1), Fabric Entity Events (v1), Fabric Content Registries (v0), Fabric Resource Conditions API (v1), Fabric Game Rule API (v1), Fabric Transfer API (v1), Fabric Rendering Data Attachment (v1), Fabric Renderer Registries (v1), Fabric Crash Report Info (v1), Fabric Lifecycle Events (v1), Fabric API Base, Fabric Loader)
-[14:03:30] [Render thread/INFO] (gweefood) Welcome To Gwee's Baking, have a Snack!
-[14:03:31] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[14:03:35] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speaker/HP (Realtek High Definition Audio)
-[14:03:35] [Render thread/INFO] (Minecraft) Sound engine started
-[14:03:35] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:03:35] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[14:03:35] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:03:35] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:03:35] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:03:35] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:03:35] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:03:36] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:03:36] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:03:36] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:03:36] [Render thread/INFO] (gweefood) Welcome To Gwee's Baking, have a Snack!
-[14:03:46] [Render thread/INFO] (gweefood) Welcome To Gwee's Baking, have a Snack!
-[14:03:52] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:03:52] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:03:52] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:03:52] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[14:03:52] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[14:03:52] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Game Test API (v1), Fabric Tool Attribute API (v1), Gwee's Baking)
-[14:03:53] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[14:03:53] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
-[14:03:56] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:03:56] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 9.820 ms
-[14:03:56] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.1
-[14:03:56] [Server thread/INFO] (Minecraft) Generating keypair
-[14:03:56] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[14:03:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:03:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:03:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:03:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:03:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:03:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:03:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:04] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:04:04] [Render thread/INFO] (Minecraft) Preparing spawn area: 9%
-[14:04:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 12%
-[14:04:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 18%
-[14:04:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 30%
-[14:04:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 38%
-[14:04:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 44%
-[14:04:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 55%
-[14:04:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
-[14:04:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 73%
-[14:04:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 84%
-[14:04:09] [Render thread/INFO] (Minecraft) Time elapsed: 12988 ms
-[14:04:09] [Server thread/INFO] (Minecraft) Changing view distance to 6, from 10
-[14:04:09] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
-[14:04:12] [Server thread/INFO] (Minecraft) Player741[local:E:e8f9fbe6] logged in with entity id 186 at (-150.70151202797373, 100.0, -48.03692507392532)
-[14:04:12] [Server thread/INFO] (Minecraft) Player741 joined the game
-[14:04:12] [Render thread/INFO] (Minecraft) Loaded 3 advancements
-[14:04:25] [Server thread/INFO] (Minecraft) [Player741: Set own game mode to Survival Mode]
-[14:04:25] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
-[14:05:15] [Render thread/INFO] (Minecraft) Loaded 18 advancements
-[14:06:17] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:06:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:overworld
-[14:06:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_nether
-[14:06:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_end
-[14:06:18] [Server thread/INFO] (Minecraft) Player741 lost connection: Disconnected
-[14:06:18] [Server thread/INFO] (Minecraft) Player741 left the game
-[14:06:18] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[14:06:18] [Server thread/INFO] (Minecraft) Stopping server
-[14:06:18] [Server thread/INFO] (Minecraft) Saving players
-[14:06:18] [Server thread/INFO] (Minecraft) Saving worlds
-[14:06:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:overworld
-[14:06:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_nether
-[14:06:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_end
-[14:06:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Donut): All chunks are saved
-[14:06:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:06:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:06:18] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[14:06:18] [Render thread/INFO] (gweefood) Welcome To Gwee's Baking, have a Snack!
-[14:06:19] [Render thread/INFO] (Minecraft) Stopping!
+[06:58:27] [Render thread/INFO] (Minecraft) Setting user: Player106
+[06:58:27] [Render thread/INFO] (gweefood) Baking Items for Gwee's Baking
+[06:58:27] [Render thread/INFO] (gweefood) Baking Blocks for Gwee's Baking
+[06:58:27] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[06:58:28] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[06:58:31] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[06:58:31] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Renderer API (v1), Fabric Rendering Data Attachment (v1), Fabric Registry Sync (v0), Fabric Particles (v1), Fabric Key Bindings (v0), Fabric Content Registries (v0), Fabric Events Interaction (v0), Fabric Resource Conditions API (v1), Fabric Networking API (v1), Fabric Dimensions API (v1), Fabric Screen API (v1), Fabric Loot Tables (v1), Fabric Data Generation API (v1), Fabric Commands (v0), Fabric Object Builder API (v1), Fabric Containers (v0), Fabric Item API (v1), Fabric Mining Level API (v1), Fabric Crash Report Info (v1), Fabric API Base, Fabric Events Lifecycle (v0), Fabric Loader, Fabric Key Binding API (v1), Fabric Command API (v1), Fabric Game Rule API (v1), Fabric API Lookup API (v1), Fabric Rendering (v0), Fabric API, Fabric Biome API (v1), Fabric Screen Handler API (v1), Fabric Resource Loader (v0), Fabric Rendering Fluids (v1), Fabric Entity Events (v1), Fabric Renderer Registries (v1), Gwee's Baking, Fabric Models (v0), Fabric Game Test API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Renderer - Indigo, Fabric BlockRenderLayer Registration (v1), Fabric Rendering (v1), Fabric Item Groups (v0), Fabric Lifecycle Events (v1), Fabric Networking (v0))
+[06:58:32] [Render thread/INFO] (gweefood) Welcome To Gwee's Baking, have a Snack!
+[06:58:33] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[06:58:35] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speaker/HP (Realtek High Definition Audio)
+[06:58:35] [Render thread/INFO] (Minecraft) Sound engine started
+[06:58:36] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[06:58:36] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[06:58:36] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[06:58:36] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[06:58:36] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[06:58:36] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[06:58:36] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06:58:38] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[06:58:38] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06:58:38] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[06:58:38] [Render thread/INFO] (gweefood) Welcome To Gwee's Baking, have a Snack!
+[06:58:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:58:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:58:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:58:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:58:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:58:47] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[06:58:47] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
+[06:58:49] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:58:49] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 3.584 ms
+[06:58:49] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.2
+[06:58:49] [Server thread/INFO] (Minecraft) Generating keypair
+[06:58:50] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[06:58:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[06:58:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
+[06:58:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 9%
+[06:58:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 15%
+[06:58:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 17%
+[06:58:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 22%
+[06:59:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 27%
+[06:59:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 27%
+[06:59:01] [Render thread/INFO] (Minecraft) Preparing spawn area: 41%
+[06:59:01] [Render thread/INFO] (Minecraft) Preparing spawn area: 48%
+[06:59:02] [Render thread/INFO] (Minecraft) Time elapsed: 12355 ms
+[06:59:02] [Server thread/INFO] (Minecraft) Changing view distance to 6, from 10
+[06:59:02] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[06:59:08] [Server thread/INFO] (Minecraft) Player106[local:E:566e1a05] logged in with entity id 233 at (-148.40718261610596, 100.0, -43.6545268580454)
+[06:59:08] [Server thread/INFO] (Minecraft) Player106 joined the game
+[06:59:09] [Render thread/INFO] (Minecraft) Loaded 3 advancements
+[06:59:20] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:25] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:26] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:27] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:29] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:31] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:32] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:33] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:33] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:35] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:36] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:36] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[06:59:54] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[06:59:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:overworld
+[06:59:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_nether
+[06:59:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_end
+[07:00:17] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 13780.256034, -44.737929]
+[07:00:17] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 13780.256034, -44.737929
+[07:00:21] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 12435.331910, -44.737929]
+[07:00:21] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 12435.331910, -44.737929
+[07:00:23] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 11325.574984, -44.737929]
+[07:00:23] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 11325.574984, -44.737929
+[07:00:24] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 10207.976771, -44.737929]
+[07:00:24] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 10207.976771, -44.737929
+[07:00:25] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 9121.737506, -44.737929]
+[07:00:25] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 9121.737506, -44.737929
+[07:00:26] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 8055.097866, -44.737929]
+[07:00:26] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 8055.097866, -44.737929
+[07:00:27] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 6996.298080, -44.737929]
+[07:00:27] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 6996.298080, -44.737929
+[07:00:28] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 5933.578231, -44.737929]
+[07:00:28] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 5933.578231, -44.737929
+[07:00:30] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 4757.178391, -44.737929]
+[07:00:30] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 4757.178391, -44.737929
+[07:00:31] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -149.642772, 3678.778389, -44.737929]
+[07:00:31] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -149.642772, 3678.778389, -44.737929
+[07:00:43] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -144.898253, 1777.177659, -70.400068]
+[07:00:43] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -144.898253, 1777.177659, -70.400068
+[07:00:45] [Server thread/INFO] (Minecraft) [Player106: Teleported Player106 to -144.898253, 561.577450, -70.400068]
+[07:00:45] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player106 to -144.898253, 561.577450, -70.400068
+[07:00:48] [Render thread/INFO] (Minecraft) [CHAT] Saved screenshot as 2022-05-24_07.00.48.png
+[07:00:58] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[07:00:59] [Render thread/WARN] (Minecraft) Failed to create screen for menu type: gweefood:baking_table
+[07:01:01] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[07:01:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:overworld
+[07:01:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_nether
+[07:01:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Donut]'/minecraft:the_end

@@ -17,7 +17,7 @@ public class GweeModBlocks {
 
     // Blocks
     public static final Block BAKING_TABLE = registerBlock("baking_table",
-            new BakingTableBlock(FabricBlockSettings.of(Material.CAKE).jumpVelocityMultiplier(1000).strength(4f).breakByHand(true)), GweeItemGroup.BAKING);
+            new BakingTableBlock(FabricBlockSettings.of(Material.CAKE).jumpVelocityMultiplier(1000).strength(4f)), GweeItemGroup.BAKING);
 
     // Utilities
     private static Block registerBlock(String name, Block block, ItemGroup group) {

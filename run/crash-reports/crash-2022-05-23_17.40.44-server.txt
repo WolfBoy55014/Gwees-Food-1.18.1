@@ -1,0 +1,132 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 5/23/22, 5:40 PM
+Description: Exception in server tick loop
+
+java.lang.ExceptionInInitializerError
+	at net.wolfboy.gweefood.screen.BakingTableScreenHandler.<init>(BakingTableScreenHandler.java:18)
+	at net.wolfboy.gweefood.block.entity.BakingTableBlockEntity.createMenu(BakingTableBlockEntity.java:37)
+	at net.minecraft.server.network.ServerPlayerEntity.openHandledScreen(ServerPlayerEntity.java:1031)
+	at net.wolfboy.gweefood.block.custom.BakingTableBlock.onUse(BakingTableBlock.java:53)
+	at net.minecraft.block.AbstractBlock$AbstractBlockState.onUse(AbstractBlock.java:939)
+	at net.minecraft.server.network.ServerPlayerInteractionManager.interactBlock(ServerPlayerInteractionManager.java:336)
+	at net.minecraft.server.network.ServerPlayNetworkHandler.onPlayerInteractBlock(ServerPlayNetworkHandler.java:1081)
+	at net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket.apply(PlayerInteractBlockC2SPacket.java:30)
+	at net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket.apply(PlayerInteractBlockC2SPacket.java:8)
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:22)
+	at net.minecraft.server.ServerTask.run(ServerTask.java:18)
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157)
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:808)
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:165)
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131)
+	at net.minecraft.server.MinecraftServer.runOneTask(MinecraftServer.java:790)
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:784)
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140)
+	at net.minecraft.server.MinecraftServer.runTasksTillTickEnd(MinecraftServer.java:769)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:701)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:273)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Registry is already frozen (trying to add key ResourceKey[minecraft:menu / gweefood:baking_table_screen])
+	at net.minecraft.util.registry.SimpleRegistry.assertNotFrozen(SimpleRegistry.java:80)
+	at net.minecraft.util.registry.SimpleRegistry.set(SimpleRegistry.java:90)
+	at net.minecraft.util.registry.SimpleRegistry.set(SimpleRegistry.java:86)
+	at net.minecraft.util.registry.SimpleRegistry.add(SimpleRegistry.java:134)
+	at net.minecraft.util.registry.Registry.register(Registry.java:471)
+	at net.minecraft.util.registry.Registry.register(Registry.java:467)
+	at net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry.registerSimple(ScreenHandlerRegistry.java:86)
+	at net.wolfboy.gweefood.screen.GweeModScreenHandlers.<clinit>(GweeModScreenHandlers.java:11)
+	... 23 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1550737216 bytes (1478 MiB) / 2854223872 bytes (2722 MiB) up to 4152360960 bytes (3960 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 94 Stepping 3
+	Microarchitecture: Skylake (Client)
+	Frequency (GHz): 2.59
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: NVIDIA Quadro M1000M
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x13b1
+	Graphics card #0 versionInfo: DriverVersion=30.0.14.7291
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 25576.96
+	Virtual memory used (MB): 22796.27
+	Swap memory total (MB): 9742.72
+	Swap memory used (MB): 2405.68
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		fabric: Fabric API 0.47.10+1.18.2
+		fabric-api-base: Fabric API Base 0.4.3+d7c144a860
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.5.6+d7c144a860
+		fabric-biome-api-v1: Fabric Biome API (v1) 8.0.2+801ec85b60
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.11+3ac43d9560
+		fabric-command-api-v1: Fabric Command API (v1) 1.1.8+d7c144a860
+		fabric-commands-v0: Fabric Commands (v0) 0.2.7+b4f4f6cd60
+		fabric-containers-v0: Fabric Containers (v0) 0.1.20+d7c144a860
+		fabric-content-registries-v0: Fabric Content Registries (v0) 3.0.1+d82b939260
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.10+3ac43d9560
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 2.0.6+b5a7ab5360
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.16+2540745460
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.4.7+d7c144a860
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.18+d7c144a860
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.12+d7c144a860
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.12+d7c144a860
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 1.0.14+2540745460
+		fabric-item-api-v1: Fabric Item API (v1) 1.3.2+691a79b560
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.9+3ac43d9560
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.11+54e5b2ec60
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.9+b4f4f6cd60
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.0.1+2540745460
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.0.10+d7c144a860
+		fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.0.3+d1027f7d60
+		fabric-models-v0: Fabric Models (v0) 0.3.5+d7c144a860
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.0.20+d882b91560
+		fabric-networking-v0: Fabric Networking (v0) 0.3.7+b4f4f6cd60
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 2.0.2+34b2a0ce60
+		fabric-particles-v1: Fabric Particles (v1) 0.2.11+526dc1ac60
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.7+0d9ab37260
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.4.12+d882b91560
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.4.16+d8c7b9ae60
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.10+b4f4f6cd60
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.6+d7c144a860
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 2.0.1+54e5b2ec60
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.12+b4f4f6cd60
+		fabric-rendering-v1: Fabric Rendering (v1) 1.10.6+54e5b2ec60
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.0.1+d1027f7d60
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.4.17+801ec85b60
+		fabric-screen-api-v1: Fabric Screen API (v1) 1.0.9+d882b91560
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.1.13+d7c144a860
+		fabric-textures-v0: Fabric Textures (v0) 1.0.11+3ac43d9560
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 1.5.13+cca23f9360
+		fabricloader: Fabric Loader 0.13.3
+		gweefood: Gwee's Baking 0.1-1.18.2
+		java: OpenJDK 64-Bit Server VM 17
+		minecraft: Minecraft 1.18.2
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayerEntity['Player637'/226, l='ServerLevel[Donut]', x=-148.41, y=100.00, z=-43.65]]
+	Data Packs: vanilla, Fabric Mods
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'

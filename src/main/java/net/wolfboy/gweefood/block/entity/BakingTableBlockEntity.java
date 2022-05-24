@@ -14,12 +14,14 @@ import net.minecraft.text.Text;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.wolfboy.gweefood.item.GweeModItems;
 import net.wolfboy.gweefood.item.inventory.ImplementedInventory;
+import net.wolfboy.gweefood.screen.BakingTableScreenHandler;
 import org.jetbrains.annotations.Nullable;
 
 public class BakingTableBlockEntity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory =
-            DefaultedList.ofSize(16,ItemStack.EMPTY);
+            DefaultedList.ofSize(17,ItemStack.EMPTY);
     public BakingTableBlockEntity(BlockPos pos, BlockState state) {
         super(GweeModBlockEntities.BAKING_TABLE, pos, state);
     }
@@ -32,7 +34,7 @@ public class BakingTableBlockEntity extends BlockEntity implements NamedScreenHa
     @Nullable
     @Override
     public ScreenHandler createMenu(int syncId, PlayerInventory inv, PlayerEntity player) {
-        return
+        return new BakingTableScreenHandler(syncId, inv, this);
     }
 
     @Override
@@ -63,14 +65,14 @@ public class BakingTableBlockEntity extends BlockEntity implements NamedScreenHa
         entity.removeStack(1, 1);
         entity.removeStack(2, 1);
 
-        entity.setStack(3, new ItemStack(ModItems.MYTHRIL_PICKAXE,
-                entity.getStack(3).getCount() + 1));
+        entity.setStack(17, new ItemStack(GweeModItems.DONUT_FROSTING_LEMON,
+                entity.getStack(17).getCount() + 1));
     }
 
     private static boolean hasRecipe(BakingTableBlockEntity entity) {
-        boolean hasItemInFirstSlot = entity.getStack(0).getItem() == ModItems.LILAC_FLOWER_BULB;
-        boolean hasItemInSecondSlot = entity.getStack(1).getItem() == Items.GOLDEN_PICKAXE;
-        boolean hasItemInThirdSlot = entity.getStack(2).getItem() == ModItems.MYTHRIL_INGOT;
+        boolean hasItemInFirstSlot = entity.getStack(0).getItem() == GweeModItems.LIME;
+        boolean hasItemInSecondSlot = entity.getStack(1).getItem() == GweeModItems.LEMON;
+        boolean hasItemInThirdSlot = entity.getStack(2).getItem() == GweeModItems.STRAWBERRY;
 
         return hasItemInFirstSlot && hasItemInSecondSlot && hasItemInThirdSlot;
     }
@@ -79,4 +81,4 @@ public class BakingTableBlockEntity extends BlockEntity implements NamedScreenHa
         return entity.getStack(3).getCount() < entity.getStack(3).getMaxCount();
     }
 }
-}
+
