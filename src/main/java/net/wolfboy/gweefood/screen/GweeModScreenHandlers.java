@@ -11,7 +11,7 @@ public class GweeModScreenHandlers {
     
     public static void registerAllScreenHandlers() {
         BAKING_TABLE_SCREEN_HANDLER =
-                ScreenHandlerRegistry.registerSimple(new Identifier(GweeFood.MOD_ID,"baking_table"),
+                ScreenHandlerRegistry.registerSimple(new Identifier(GweeFood.MOD_ID, "baking_table"),
                         BakingTableScreenHandler::new);
     }
 }
